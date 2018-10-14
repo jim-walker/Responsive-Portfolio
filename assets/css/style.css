@@ -165,3 +165,44 @@ input[type="submit"] {
     bottom: 20px; 
     width: 200px;
 }
+
+@media screen and (max-width: 980px) {
+    .widthRow {
+        width: 720px;
+    }
+    .myContact{
+        width: 680px;
+        height: auto
+    }
+    .portRow{
+        width: 680px;
+        height: 500px
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .widthRow {
+        width: 600px;
+    }
+    .myContact{
+        width: 560px;
+        height: auto
+    }
+    .portRow{
+        width: 560px;
+        height: 500px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .widthRow {
+        width: 500px;
+    }
+    .myContact{
+        width: 460px;
+        height: auto
+    }
+    .portRow{
+        width: 460px;
+        height: 700px;
+    }
+  }
